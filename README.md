@@ -4,7 +4,7 @@ A multi-page space tourism website built with HTML, CSS, and JavaScript.
 Inspired by the Frontend Mentor challenge.
 
 ## 🔗 Live Demo
-[View Project](https://seu-link.vercel.app)
+[View Project](https://space-tourism-thmendesdev.vercel.app)
 
 ## 📸 Preview
 ![Space Tourism Preview](./preview.png)
