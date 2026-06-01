@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
+  <title>Destination - Space Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./starter-code/assets/shared/logo.svg" alt="Space Tourism Logo">
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">00 HOME</a></li>
+        <li><a href="destination.html" class="nav-link active">01 DESTINATION</a></li>
+        <li><a href="crew.html" class="nav-link">02 CREW</a></li>
+        <li><a href="technology.html" class="nav-link">03 TECHNOLOGY</a></li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Open menu">
+      <img src="./starter-code/assets/shared/icon-hamburger.svg" alt="Menu">
+    </button>
+  </header>
+
+  <main class="main destination-main">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="page-title">
+          <span class="number">01</span>
+          <span class="text">PICK YOUR DESTINATION</span>
+        </h1>
+      </div>
+      
+      <div class="destination-content">
+        <div class="destination-image">
+          <img id="destination-img" src="" alt="Destination">
+        </div>
+        
+        <div class="destination-info">
+          <div class="destination-tabs">
+            <button class="tab-btn active" data-index="0">MOON</button>
+            <button class="tab-btn" data-index="1">MARS</button>
+            <button class="tab-btn" data-index="2">EUROPA</button>
+            <button class="tab-btn" data-index="3">TITAN</button>
+          </div>
+          
+          <div class="destination-details">
+            <h2 id="destination-name" class="destination-title"></h2>
+            <p id="destination-description" class="destination-description"></p>
+            
+            <div class="destination-stats">
+              <div class="stat">
+                <span class="stat-label">AVG. DISTANCE</span>
+                <span id="destination-distance" class="stat-value"></span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">EST. TRAVEL TIME</span>
+                <span id="destination-travel" class="stat-value"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> 

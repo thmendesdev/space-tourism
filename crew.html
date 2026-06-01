@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
+  <title>Crew - Space Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./starter-code/assets/shared/logo.svg" alt="Space Tourism Logo">
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">00 HOME</a></li>
+        <li><a href="destination.html" class="nav-link">01 DESTINATION</a></li>
+        <li><a href="crew.html" class="nav-link active">02 CREW</a></li>
+        <li><a href="technology.html" class="nav-link">03 TECHNOLOGY</a></li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-btn" aria-label="Open menu">
+      <img src="./starter-code/assets/shared/icon-hamburger.svg" alt="Menu">
+    </button>
+  </header>
+
+  <main class="main crew-main">
+    <div class="container">
+      <div class="page-header">
+        <h1 class="page-title">
+          <span class="number">02</span>
+          <span class="text">MEET YOUR CREW</span>
+        </h1>
+      </div>
+      
+      <div class="crew-content">
+        <div class="crew-info">
+          <div class="crew-details">
+            <h2 id="crew-role" class="crew-role"></h2>
+            <h3 id="crew-name" class="crew-name"></h3>
+            <p id="crew-bio" class="crew-bio"></p>
+          </div>
+          
+          <div class="crew-indicators">
+            <button class="indicator active" data-index="0" aria-label="View Commander"></button>
+            <button class="indicator" data-index="1" aria-label="View Mission Specialist"></button>
+            <button class="indicator" data-index="2" aria-label="View Pilot"></button>
+            <button class="indicator" data-index="3" aria-label="View Flight Engineer"></button>
+          </div>
+        </div>
+        
+        <div class="crew-image">
+          <img id="crew-img" src="" alt="Crew Member">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> 
